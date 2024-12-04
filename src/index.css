@@ -24,7 +24,10 @@ code {
   gap: 8px;
   opacity: 0px;
   background: #FC7A1D;
+  justify-content: space-between;
+  display: flex
 }
+
 
 .dot1{
   width: Hug (48px)px;
@@ -42,26 +45,114 @@ code {
 
 .txtban{
   text-align: center;
-  width: 1280px;
-  height: 20px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logup img{
+  width: 100%;
+}
+
+.logbg{
+  width: 100%;
+  height: 563px;
+  justify-content: space-between;
+  display: flex;
+  background-image: url('./img/Screenshot\ 2024-03-13\ at\ 11.09\ 1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.txtbg1{
+  width: 360px;
+  height: 38px;
+  margin-top: 445px;
+  margin-left: 112px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: white;
+  font-weight: bold;
+}
+
+.txtbg2{
+  display: flex;
+  width: Hug (168px)px;
+  height: Hug (20px)px;
+  margin-top: 459px;
+  margin-left: 1161px;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.04em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
-.logtx1{
-  width: 1216px;
-  height: 169px;
-  top: 40px;
-  left: 112px;
-  padding: 14.78px 0px 16.08px 0px;
-  gap: 0px;
+.txtbg21{
+
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: white;
+  font-weight: bold;
+}
+
+.vecbg1{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+
+.linebar{
+  width: Fixed (1,440px)px;
+  height: Hug (112px)px;
+  padding: 40px 112px 40px 112px;
+  gap: 40px;
   opacity: 0px;
+  background-color: #FC7A1D;
+}
+
+.linelogo{
+  justify-content: space-between;
+  display: flex
+}
+
+.bsh{
+  width: 100%;
+  display: flex;
+}
+
+.bshl{
+  width: 100%;
+  flex: 1;
+}
+
+.bshl1{
+  width: 100%;
+  display: flex;
+  margin-top: 126px;
+  opacity: 0px;
+  justify-content: center;
+}
+
+.bshr{
+
+  background-image: url('./img/image\ 1.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+}
+
+.bshltxt{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-decoration-skip-ink: none;
+
 }

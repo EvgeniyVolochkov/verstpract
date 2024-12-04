@@ -1,37 +1,38 @@
 import dot1 from "./img/Dots.svg"
 import dot2 from "./img/Dots1.svg"
-import logbg1 from "./img/Screenshot 2024-03-13 at 11.09 1.svg"
-import logtxt1 from "./img/_Logo.svg"
+import logtx1 from "./img/_Logo.svg"
 import vecbg1 from "./img/Vector.svg"
-import line from "./img/Frame 7.svg"
 import AL from "./img/ArrowLeft.svg"
 import AR from "./img/ArrowRight.svg"
-import bshl from "./img/shirt 1.svg"
-import bshr from "./img/image 1.svg"
+import bshli from "./img/shirt 1.svg"
+import bshri from "./img/image 1.svg"
+import BI from "./img/BI.svg"
+import FB from "./img/FB.svg"
+import HB from "./img/HB.svg"
+import KF from "./img/KF.svg"
+import Num from "./img/Numero.svg"
 
 function App() {
   return (
-    <>
+    <div className = "main">
       <div class="bunn">
-        <img className = ""  src = {dot1}/>
-        <p className = "txtban">Summer sale up to 50% off</p>
-        <img className = "" src = {dot2}/>
+        <img className = "dot1"  src = {dot1}/>
+        <p className = "txtban">SUMMER SALE UP TO 50% OFF</p>
+        <img className = "dot2" src = {dot2}/>
       </div>
 
       <div className = "head">
         <div className = "logup">
-          <img className = "logotx1" src = {logtxt1}/>
+          <img className = "logotx1" src = {logtx1}/>
         </div>
-
         <div className = "logund">
           <div className = "logbg">
-            <img className = "logbg1" src = {logbg1}/>
-              <div className = "txtbg1">
-                <p className = "txtbg11">Spring Season</p>
-              </div>
-              <div className = "txtbg2">
-                <p className = "txtbg21">view collection</p>
-                <img className = "vecbg1" src = {vecbg1}/>
+            <div className = "txtbg1">
+              <p className = "txtbg11">Spring Season</p>
+            </div>
+            <div className = "txtbg2">
+              <p className = "txtbg21">VIEW COLLECTION</p>
+              <img className = "vecbg1" src = {vecbg1}/>
             </div>
           </div>
         </div>
@@ -39,7 +40,11 @@ function App() {
 
       <div className="linebar">
         <div className="linelogo">
-          <img className = "line" src = {line}/>
+          <img className = "line1" src = {Num}/>
+          <img className = "line2" src = {BI}/>
+          <img className = "line3" src = {KF}/>
+          <img className = "line4" src = {FB}/>
+          <img className = "line5" src = {HB}/>
         </div>
       </div>
 
@@ -47,17 +52,17 @@ function App() {
         <div className = "bshl">
           <div className = "bshl1">
             <img className = "AL" src = {AL}/>
+            <img className = "bshli" src = {bshli}/>
             <img className = "AR" src = {AR}/>
-            <img className = "bshl" src = {bshl}/>
           </div>
           <div className = "bshltxt">
-            <p></p>
-            <p></p>
+            <p>Basic Shirt</p>
+            <p>€49</p>
           </div>
         </div>
         <div className = "bshr">
-        <img/>
-        <button></button>
+        <img className = "bshri" src = {bshri}/>
+        <button className = "ssbs">Shop Shirts</button>
         </div>
       </div>
 
@@ -99,7 +104,7 @@ function App() {
       <div className = "ttsh">
         
       </div> */}
-    </>
+    </div>
   );
 }
   
